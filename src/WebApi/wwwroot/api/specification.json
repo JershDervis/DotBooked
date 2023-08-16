@@ -6,7 +6,7 @@
     "version": "1.0.0"
   },
   "paths": {
-    "/customers": {
+    "/api/customers": {
       "get": {
         "tags": [
           "Customers"
@@ -39,7 +39,7 @@
         }
       }
     },
-    "/orders": {
+    "/api/orders": {
       "get": {
         "tags": [
           "Orders"
@@ -113,7 +113,7 @@
         }
       }
     },
-    "/orders/{orderId}": {
+    "/api/orders/{orderId}": {
       "get": {
         "tags": [
           "Orders"
@@ -155,7 +155,7 @@
         }
       }
     },
-    "/orders/{orderId}/Items": {
+    "/api/orders/{orderId}/Items": {
       "post": {
         "tags": [
           "Orders"
@@ -213,7 +213,7 @@
         }
       }
     },
-    "/orders/{orderId}/Submit": {
+    "/api/orders/{orderId}/Submit": {
       "post": {
         "tags": [
           "Orders"

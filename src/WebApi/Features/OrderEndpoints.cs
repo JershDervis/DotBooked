@@ -13,7 +13,7 @@ public static class OrderEndpoints
     public static void MapOrderEndpoints(this WebApplication app)
     {
         var group = app
-            .MapGroup("orders")
+            .MapGroup("/api/orders")
             .WithTags("Orders")
             .WithOpenApi();
 

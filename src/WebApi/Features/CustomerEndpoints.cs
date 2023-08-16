@@ -9,7 +9,7 @@ public static class CustomerEndpoints
     public static void MapCustomerEndpoints(this WebApplication app)
     {
         var group = app
-            .MapGroup("customers")
+            .MapGroup("/api/customers")
             .WithTags("Customers")
             .WithOpenApi();
 
